@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 20px auto;
+      font-family: sans-serif;
+      width: fit-content;
+    }
+    form{
+      background-color: #EEE;
+      padding: 15px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+    }
+    form .input{
+      padding: 8px 15px;
+      border: 1px solid #ccc;
+      outline: none;
+      border-radius: 10px;
+      width: 300px;
+      margin-right: 3px;
+    }
+    form .add{
+      background-color: #F44336;
+      height: 30px;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding-inline: 10px;
+      cursor: pointer;
+    }
+    .tasks{
+      background-color: #EEE;
+      padding: 15px;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+      gap: 10px;
+    }
+    .tasks > div{
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 6px;
+      padding: 10px;
+    }
+    p{
+      margin: 0;
+    }
+    button{
+      background-color: #F44336;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 11px;
+      padding: 5px 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <form action="">
+    <input type="text" class="input" id="">
+    <input type="submit" class="add" value="Add Task">
+  </form>
+  <div class="tasks">
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
